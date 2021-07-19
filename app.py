@@ -7,7 +7,7 @@ import pandas as pd
 from keras.models import load_model
 st.set_option('deprecation.showfileUploaderEncoding', False)
 
-model = load_model('/content/drive/My Drive/FDP/churnmodelANN.h5')
+model = load_model('/content/drive/My Drive/churnmodelANN.h5')
 dataset= pd.read_csv('data.csv')
 X = dataset.iloc[:,0:8].values
 
