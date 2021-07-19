@@ -4,7 +4,7 @@ import pickle
 import numpy as np
 import matplotlib.pyplot as plt
 import pandas as pd
-
+from keras.models import load_model
 st.set_option('deprecation.showfileUploaderEncoding', False)
 
 model = load_model('/content/drive/My Drive/churnmodelANN.h5')
